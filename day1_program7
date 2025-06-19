@@ -1,0 +1,16 @@
+Value Performance:
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+int main() {
+int a;
+float b;
+scanf("%d", &a);
+scanf("%f", &b);
+printf("%d\n", a);
+  printf("%.2f\n", b); 
+return 0;
+}
