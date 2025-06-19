@@ -1,0 +1,18 @@
+The newspaper agency:
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main()
+{
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    int p;
+     p = (a*(b-c))-100;
+    printf("%d\n",p);
+    return 0;
+}
