@@ -1,0 +1,17 @@
+PLACING THE FLAG POST:
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,y,len;
+    scanf("%d%d%d",&x,&y,&len);
+    printf("x-coordinate:%d\n",x);
+    printf("y-coordinate:%d\n",y);
+    printf("Length:%d\n",len);
+    int a=x+(len/2.0);
+    int b=y+(len/2.0);
+    printf("Centre of the ground is at (%d,%d)",a,b);   
+    return 0;
+}
