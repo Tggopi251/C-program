@@ -1,0 +1,16 @@
+FENCING THE GROUND:
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() {
+int a,b;
+float x,y;
+scanf("%d",&a);
+scanf("%d",&b);
+x= 2*(a+b);
+y=a*b;
+printf("Required length is %.2fm\n", x);
+printf("Required quantity of carpet is %.2fsqm\n",y);
+return 0;
+}
