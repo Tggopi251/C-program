@@ -1,0 +1,13 @@
+ASCII conversion:
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int input;
+    scanf("%d", &input);
+ printf("%c\n", input);
+return 0;
+}
