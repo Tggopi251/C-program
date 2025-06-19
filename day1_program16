@@ -1,0 +1,25 @@
+dept repay:
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int x,y,r;
+    float si;
+    scanf("%d%d%d",&x,&r,&y);
+    si=(x*r*y)/100;
+    float p=x+si;
+    float d=0.02*si;
+    float c=p-d;
+    printf("%.2f\n",si);
+     printf("%.2f\n",p);
+     printf("%.2f\n",d);
+     printf("%.2f\n",c);
+    
+    
+    return 0;
+}
