@@ -1,0 +1,21 @@
+Cricket stadium:
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+ 
+    int le, br;
+    int rl, ca;
+    scanf("%d", &le);
+    scanf("%d", &br);
+    rl= 2 * (le + br);
+    ca = le * br;
+    printf("%d\n%d\n", rl, ca);
+return 0;
+}
+
