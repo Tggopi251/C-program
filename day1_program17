@@ -1,0 +1,26 @@
+Harry potter and the sorcerer's stone:
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+int main()
+{
+    int a;
+    scanf("%d", &a);
+     if (a< 0)
+    a= -a;
+    int l=a%10;
+    int f;
+    while (a>=10)
+    {
+    a=a/10;
+    }
+    f=a;
+    printf("%d\n",f+l);
+    return 0;
+}
+
+
